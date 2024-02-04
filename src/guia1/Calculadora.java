@@ -32,12 +32,12 @@ public class Calculadora {
         result = (float) Math.cos(a);
     }
 
-    public void raiz(double a) {
-        result = (float) Math.pow(a, 1 / 10);
+    public void raiz(double a, double b) {
+        result = (float) Math.pow(a, 1 / b);
     }
 
-    public void pot(double a) {
-        result = (float) Math.pow(a, 10);
+    public void pot(double a, double b) {
+        result = (float) Math.pow(a, b);
     }
 
     public void iva() {
