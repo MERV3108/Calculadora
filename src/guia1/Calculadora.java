@@ -40,8 +40,8 @@ public class Calculadora {
         result = (float) Math.pow(a, b);
     }
 
-    public void iva() {
-        result = num1 + (num1 * (num2 / 100));
+    public void iva(double a, double b) {
+        result = (float) (a + (a * (b / 100)));
     }
 
 }
