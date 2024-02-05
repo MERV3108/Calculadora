@@ -14,6 +14,7 @@ public class GUI extends javax.swing.JFrame {
     Calculadora cal2 = new Calculadora();
     public GUI() {
         initComponents();
+        this.setLocationRelativeTo(null);
     }
 
     /**
