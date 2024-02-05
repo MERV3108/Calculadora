@@ -3,6 +3,7 @@ package guia1;
 public class Calculadora {
 
     public float num1, num2, result;
+    
 
     public void suma() {
         result = num1 + num2;
