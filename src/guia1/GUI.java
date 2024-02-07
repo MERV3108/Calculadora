@@ -519,7 +519,7 @@ jLabel1.setText("");        // TODO add your handling code here:
     }//GEN-LAST:event_jButton17ActionPerformed
 
     private void jButton24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton24ActionPerformed
-   jLabel1.setText(jLabel1.getText()+"0");
+   jLabel1.setText(jLabel1.getText()+cal2.result);
     }//GEN-LAST:event_jButton24ActionPerformed
 
     /**
