@@ -52,8 +52,12 @@ public class Consola {
                        cal1.num1= ingreso.nextFloat();
                        System.out.println("Digite el segundo numero: ");
                        cal1.num2= ingreso.nextFloat();
+                       if(cal1.num2!=0){
                        cal1.divi();
                        System.out.println("\tRespuesta:" + cal1.result);
+                       }else{
+                           System.out.println("\tMath error");   
+                       }      
                    }
                    default -> System.out.println("Opcion invalida, intentalo de nuevo");
                }
