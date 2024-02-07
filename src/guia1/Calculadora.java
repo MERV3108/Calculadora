@@ -3,12 +3,10 @@ package guia1;
 public class Calculadora {
 
     public float num1, num2, result;
-    float ans=0;
     
 
     public void suma() {
-        result = num1 + num2 + ans;
-        ans=result;
+        result = num1 + num2;
     }
 
     public void resta() {
