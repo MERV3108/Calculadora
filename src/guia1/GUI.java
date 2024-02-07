@@ -478,8 +478,13 @@ jLabel1.setText("");        // TODO add your handling code here:
             this.jLabel1.setText(Float.toString(+cal2.result));
             break;
         case "÷":
-            cal2.divi();
+            if(a!=0){
+                cal2.divi();
            this.jLabel1.setText(Float.toString(+cal2.result));
+            }
+            else{
+                this.jLabel1.setText("Math ERROR");
+}
             break;
         case "sin":
             cal2.sen(a);
